@@ -9,3 +9,6 @@ a{
 .card{
     background-color: black;
 }
+.imgCard{
+    width: 16rem;
+}
