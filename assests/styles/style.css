@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 #logo{
     width: 12rem;
 }
@@ -6,9 +12,19 @@ a{
     text-decoration: none;
     color: black;
 }
-.card{
-    background-color: black;
-}
+
 .imgCard{
     width: 15rem;
+}
+#monstersMain{
+    background-color: red;
+}
+#weaponsMain{
+    background-color: blue;
+}
+#indexMain{
+    background-color: green;
+}
+.card{
+    display: inline;
 }
