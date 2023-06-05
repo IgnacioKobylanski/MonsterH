@@ -14,7 +14,10 @@ a{
 }
 
 .imgCard{
-    width: 15rem;
+    width: 16rem;
+    height: 75%;
+    margin: 5px;
+    object-fit: contain;
 }
 #monstersMain{
     background-color: red;
@@ -26,5 +29,46 @@ a{
     background-color: green;
 }
 .card{
-    display: inline;
+    background-color: blueviolet;
+    padding: 1rem;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.myWeapons{
+    /*width: 16rem;
+    height: 75%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;*/
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.allWeapons{
+   /* width: 16rem;
+    height: 75%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;*/
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: start;
+}
+.overview{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.setting{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
