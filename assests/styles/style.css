@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 #logo{
@@ -9,7 +10,7 @@
 }
 
 a{
-    text-decoration: none;
+ 
     color: black;
 }
 
@@ -71,4 +72,8 @@ a{
     flex-direction: row-reverse;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+.overview{
+    display: flex;
+    
 }
