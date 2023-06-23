@@ -3,15 +3,17 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 #logo{
-    width: 12rem;
+    width: 5rem;
 }
 
 a{
  
-    color: black;
+    color: white;
 }
 
 .imgCard{
@@ -27,7 +29,8 @@ a{
     background-color: blue;
 }
 #indexMain{
-    background-color: green;
+    background: rgb(19,19,20);
+    background: linear-gradient(90deg, rgba(19,19,20,1) 21%, rgba(74,41,0,1) 63%);
 }
 .card{
     background-color: blueviolet;
@@ -76,4 +79,55 @@ a{
 .overview{
     display: flex;
     
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 1rem;
+    align-items: stretch;
+}
+nav a{
+    color: white;
+    margin-right: .5rem;
+}
+h2, h3, a, p{
+    color: white;
+}
+.overviewDiv{
+    display: flex;
+    flex-direction: column;
+}
+.mainLog{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+footer{
+    color: white;
+    background-color: black;
+}
+#imgLogoMain{
+    width: 50%;
+}
+.overviewDiv>p{
+    width: 20rem;
+}
+.setting{
+    display: flex;
+    margin-top: 2rem;
+
+}
+.setting p{
+    width: 20rem;
+}
+.setting>img{
+    width: 50%;
 }
