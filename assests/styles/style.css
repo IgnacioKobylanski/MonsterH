@@ -53,23 +53,11 @@ a{
     
 }
 .myWeapons{
-    /*width: 16rem;
-    height: 75%;
-    margin: 5px;
-    display: flex;
-    flex-direction: row;
-    object-fit: contain;*/
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .allWeapons{
-   /* width: 16rem;
-    height: 75%;
-    margin: 5px;
-    display: flex;
-    flex-direction: row;
-    object-fit: contain;*/
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
