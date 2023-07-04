@@ -56,12 +56,16 @@ a{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .allWeapons{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: start;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .overview{
     display: flex;
@@ -186,10 +190,10 @@ footer{
 }
 section.container{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    padding-bottom: 1rem;
     align-items: stretch;
+    row-gap: 1rem;
 }
 .checkbox{
     display: flex;
