@@ -18,9 +18,9 @@ a{
 
 .imgCard{
     width: 16rem;
-    height: 75%;
+    /*height: 75%;
     margin: 5px;
-    object-fit: contain;
+    object-fit: contain;*/
 }
 #monstersMain{
     color: white;
@@ -45,6 +45,12 @@ a{
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
+    /*width: 20rem;
+    height: 20rem;*/
+}
+.details{
+    display: flex;
+    flex-direction: column;
 }
 .container{
     display: flex;
@@ -61,11 +67,16 @@ a{
 }
 .allWeapons{
     display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    /*display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: start;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1rem;*/
 }
 .overview{
     display: flex;
@@ -98,6 +109,9 @@ nav a{
 }
 h2, h3, a, p{
     color: white;
+}
+h4{
+    text-align: center;
 }
 .overviewDiv{
     display: flex;
@@ -187,6 +201,9 @@ footer{
         flex-direction: column;
         align-items: baseline;
     }
+    section.myWeapons{
+        display: flex;
+    }
 }
 section.container{
     display: flex;
@@ -211,6 +228,7 @@ div.card{
 }
 section.myWeapons{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+
 }
 div.container{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
